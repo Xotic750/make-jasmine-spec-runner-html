@@ -18,7 +18,7 @@
  *
  * Build a jasmine 1.1.3 spec runner html file.
  *
- * @version 1.0.2
+ * @version 1.0.4
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}

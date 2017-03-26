@@ -19,7 +19,7 @@ alt="npm version" height="18">
 
 Build a jasmine 1.1.3 spec runner html file.
 
-**Version**: 1.0.2  
+**Version**: 1.0.4  
 **Author**: Xotic750 <Xotic750@gmail.com>  
 **License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
 **Copyright**: Xotic750  
