@@ -18,20 +18,35 @@
  *
  * Build a jasmine 1.1.3 spec runner html file.
  *
- * @version 1.0.6
+ * @version 1.1.0
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
  * @module make-jasmine-spec-runner-html
  */
 
-/* eslint strict: 1 */
+/* eslint strict: 1, max-statements: 1 */
 
-/* global module */
+/* global module, JSON:true */
 
 ;(function () { // eslint-disable-line no-extra-semi
 
   'use strict';
+
+  require('es5-shim');
+  require('es5-shim/es5-sham');
+  if (typeof JSON === 'undefined') {
+    JSON = {};
+  }
+  require('json3').runInContext(null, JSON);
+  require('es6-shim');
+  var es7 = require('es7-shim');
+  Object.keys(es7).forEach(function (key) {
+    var obj = es7[key];
+    if (typeof obj.shim === 'function') {
+      obj.shim();
+    }
+  });
 
   var fs = require('fs');
   var shell = require('shelljs');
