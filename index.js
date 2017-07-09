@@ -1,24 +1,6 @@
 /**
- * @file
- * <a href="https://david-dm.org/Xotic750/make-jasmine-spec-runner-html"
- * title="Dependency status">
- * <img src="https://david-dm.org/Xotic750/make-jasmine-spec-runner-html.svg"
- * alt="Dependency status" height="18"/>
- * </a>
- * <a
- * href="https://david-dm.org/Xotic750/make-jasmine-spec-runner-html#info=devDependencies"
- * title="devDependency status">
- * <img src="https://david-dm.org/Xotic750/make-jasmine-spec-runner-html/dev-status.svg"
- * alt="devDependency status" height="18"/>
- * </a>
- * <a href="https://badge.fury.io/js/make-jasmine-spec-runner-html" title="npm version">
- * <img src="https://badge.fury.io/js/make-jasmine-spec-runner-html.svg"
- * alt="npm version" height="18">
- * </a>
- *
- * Build a jasmine 1.1.3 spec runner html file.
- *
- * @version 1.2.0
+ * @file Build a jasmine 1.1.3 spec runner html file.
+ * @version 1.3.0
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
